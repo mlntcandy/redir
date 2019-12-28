@@ -1,0 +1,5 @@
+<script type="text/javascript" src="redirlist.js"></script>
+<script>
+	var redid = window.location.search.substr(1);
+	if (redid in redirlist) { window.location.replace(redirlist[redid]); }
+</script>
